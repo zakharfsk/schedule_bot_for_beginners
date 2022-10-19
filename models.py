@@ -47,8 +47,7 @@ class Schedule(Base):
                f"time_start_couple={self.time_start_couple!r}, " \
                f"time_end_couple={self.time_end_couple!r}, " \
                f"teacher_couple={self.teacher_couple!r}, " \
-               f"audience_couple={self.audience_couple!r}" \
-               f")>"
+               f"audience_couple={self.audience_couple!r})>"
 
 
 Base.metadata.create_all(engine)

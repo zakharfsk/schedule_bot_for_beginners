@@ -3,7 +3,9 @@ from datetime import datetime
 from aiogram import types
 from aiogram.dispatcher import FSMContext
 
-from keyboards import time_start_keyboard, time_end_keyboard, start_keyboad, days_keyboard, type_week_keyboard
+from keyboards import (time_start_keyboard, time_end_keyboard,
+                       start_keyboad, days_keyboard,
+                       type_week_keyboard)
 from loader import dp
 from models import Schedule, session
 from states import AddCouple
